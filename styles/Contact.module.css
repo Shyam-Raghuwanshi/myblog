@@ -1,0 +1,46 @@
+.container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-bottom: 13.2%;
+}
+
+.mb2 {
+    margin-bottom: 40px;
+}
+
+.formlabel {
+    margin-right: 50px;
+    font-size: 19px;
+}
+
+.input {
+    width: 20rem;
+    height: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.btn {
+    height: 2.5rem;
+    width: 5rem;
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/* .btn:hover {
+    color: white;
+    background-color: black;
+} */
+
+.btn:active {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,30 @@
+.main {
+    min-height: 82.2vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.para {
+    width: 40rem;
+}
+
+.btn {
+    height: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 9px;
+    outline: none;
+}
+
+.btn:active {
+    color: black;
+    background-color: white;
+}
